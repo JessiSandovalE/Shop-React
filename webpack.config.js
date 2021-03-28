@@ -48,6 +48,7 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'assets/[name].css',
     }),
+
   ],
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
